@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  selenium_test:
+    build: .
+    volumes:
+      - .:/app
+    working_dir: /app
+    command: pytest -v -s -l tests
