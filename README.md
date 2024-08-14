@@ -1,4 +1,4 @@
-Запуск в терминале, из папки home_work\5_hw по команде docker-compose up --build
+Запуск в терминале по команде docker-compose up --build
 
 В терминале должен быть ответ вида
 
