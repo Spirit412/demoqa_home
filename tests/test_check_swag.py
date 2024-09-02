@@ -16,6 +16,7 @@ def test_check_username_field(driver: WebDriver):
     page.visit()
     assert page.find_element(locator="input#user-name")
 
+
 # @pytest.mark.parametrize("url", ["https://www.saucedemo.com/"])
 def test_check_password_field(driver: WebDriver):
     page = SwagLabs(driver)

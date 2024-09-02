@@ -5,7 +5,7 @@ from selenium.webdriver.chrome.webdriver import WebDriver
 from selenium.webdriver.chrome.options import Options
 
 
-@pytest.fixture()
+@pytest.fixture(scope="session")
 def driver() -> Generator[WebDriver, Any, None]:
     # Инициализация драйвера с опциями для headless режима
     options = Options()
